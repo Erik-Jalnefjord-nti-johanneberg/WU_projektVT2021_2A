@@ -1,18 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .grid-container{
-display: grid;
-grid-template-columns: 1fr 8fr 1fr;
-grid-template-rows: 2fr 2fr 2fr 2fr;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "he he he he"
+    "na s1 s1 as"
+    "na s2 s2 as"
+    "na s3 s3 as"
+    "fo fo fo fo"
+    ;
+}
+
+
+header{
+    grid-area: he;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section_1{
+    grid-area: s1;
+}
+
+#section_2{
+    grid-area: s2;
+}
+
+#section_3{
+    grid-area: s3;
+}
+
+footer{
+    grid-area: fo;
 }
 
 
 
 
 
-h1 {
-    text-align: center;
-}
 
 
-footer {
-    color: lightgray;
-}
+
+
+
+
