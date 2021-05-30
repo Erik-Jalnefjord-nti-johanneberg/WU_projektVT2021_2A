@@ -6,7 +6,7 @@
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr; 
-    grid-template-rows: 300px 250px 250px 250px 250px;
+    grid-template-rows: 300px 200px 250px 250px 150px;
 
     grid-template-areas: 
     "he he he he"
@@ -60,7 +60,7 @@ header{
 #section_4{
     grid-area: s4;
     height: 200px;
-    background-color: whitesmoke;
+    
 }
 
 aside{
@@ -102,15 +102,23 @@ list-style-type: none;
     
 }
 
-#bild_beskrivning{
-    font-family: cursive;
+#badmintonplan_text{
+    
+    font-size: 11px;
+}
+
+#bamintonplan_regler{
+    height: 250px;
+    width: auto;
 }
 
 #section_regler_2{
     grid-area: s2;
 }
 
-#section_regler_3
+#section_regler_3{
+    grid-area: s3;
+}
 
 
 
