@@ -5,8 +5,8 @@
 
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr 2fr 2fr 1fr; 
+    grid-template-rows: 300px 250px 250px 250px 250px;
 
     grid-template-areas: 
     "he he he he"
@@ -24,6 +24,25 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../img/photo-1613921303357-f6da6d0a37ec.jpg");
+
+    
+}
+
+
+
+#header_backrund{
+    grid-area: he;
+    color: white;
+}
+#img_main{
+    height: 100px;
+    width: auto;
+}
+
+#navigation_index{
+    grid-area: na;
+    color: lightslategray;
 }
 
 #section_1{
@@ -38,9 +57,66 @@ header{
     grid-area: s3;
 }
 
-footer{
-    grid-area: fo;
+#section_4{
+    grid-area: s4;
+    height: 200px;
 }
+
+footer{
+    background-color: lightgray;
+    grid-area: fo;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#footer_list_1{
+list-style-type: none;
+}
+
+#footer_list_2{ 
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    list-style: row;
+
+}
+
+
+
+
+
+#h1_regler{
+    grid-area: he;
+
+}
+
+#section_regler_1{
+    grid-area: s1;
+    
+}
+
+#bild_beskrivning{
+    font-family: cursive;
+}
+
+#section_regler_2{
+    grid-area: s2;
+}
+
+#section_regler_3
+
+
+
+#navigation_regler{
+    grid-area: na;
+    
+}
+
+
+
+
+
 
 
 
