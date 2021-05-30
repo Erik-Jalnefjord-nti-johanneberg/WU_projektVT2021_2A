@@ -42,7 +42,7 @@ header{
 
 #navigation_index{
     grid-area: na;
-    color: lightslategray;
+    background-color: lightgray;
 }
 
 #section_1{
@@ -60,6 +60,12 @@ header{
 #section_4{
     grid-area: s4;
     height: 200px;
+    background-color: whitesmoke;
+}
+
+aside{
+    grid-area: as;
+    background-color: lightgray;
 }
 
 footer{
@@ -110,6 +116,8 @@ list-style-type: none;
 
 #navigation_regler{
     grid-area: na;
+
+    background-color: gray;
     
 }
 
